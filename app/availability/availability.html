@@ -1,0 +1,10 @@
+<div ng-controller="availabilityCtrl">
+    <form class="form-horizontal">
+        <h2>Welcome Home</h2>
+        <label for="arrivalDate" class="sr-only">Arrival Date</label>
+        <input class="form-inline" type="date" id="arrivalDate" placeholder="Arrival Date" ng-model="fromDate" autofocus>
+        <label for="departureDate" class="sr-only">Departure Date</label>
+        <input class="form-inline" type="date" id="departureDate" placeholder="Departure Date" ng-model="availabilityCtrl.toDate">
+        <button class="btn btn-lg" type="submit">Book Now</button>
+    </form>
+</div>
